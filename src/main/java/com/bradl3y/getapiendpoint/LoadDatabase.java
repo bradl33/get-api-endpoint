@@ -17,7 +17,7 @@ class LoadDatabase {
 
         //create entity and store
         return args -> {
-            log.info("Preloading " + repository.save(new HngMember("Bradl3y", true, 26, "Aspiring Backend Developer")));
+            log.info("Preloading " + repository.save(new HngMember("bradl3y", true, 26, "Aspiring Backend Developer")));
         };
     }
 }

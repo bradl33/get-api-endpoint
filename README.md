@@ -3,7 +3,7 @@ https://get-api-endpoint.herokuapp.com/hng-members/1 to run app
 This GET API endpoint returns JSON data:
 
 {
-"slackUsername": "Bradl3y",
+"slackUsername": "bradl3y",
 "backend": true,
 "age": 26,
 "bio": "Aspiring Backend Developer"
