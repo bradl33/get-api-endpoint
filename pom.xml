@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bradl3y</groupId>
-	<artifactId>GetApiEndpoint</artifactId>
+	<artifactId>get-api-endpoint</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>GetApiEndpoint</name>
-	<description>GetApiEndpoint</description>
+	<name>get-api-endpoint</name>
+	<description>get-api-endpoint</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -25,7 +25,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-			<version>RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
