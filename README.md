@@ -1,3 +1,5 @@
+https://get-api-endpoint.herokuapp.com/hng-members/1 to run app
+
 This GET API endpoint returns JSON data:
 
 {
@@ -8,3 +10,5 @@ This GET API endpoint returns JSON data:
 }
 
 The underlying code is written in Java using the Spring Boot framework.
+
+To run this app, visit https://get-api-endpoint.herokuapp.com/hng-members/1
