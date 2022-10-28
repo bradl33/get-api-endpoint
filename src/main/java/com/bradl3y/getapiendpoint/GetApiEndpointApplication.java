@@ -14,15 +14,16 @@ public class GetApiEndpointApplication {
 		SpringApplication.run(GetApiEndpointApplication.class, args);
 	}
 
-	@Bean
-	public WebMvcConfigurer corsConfigurer() {
-		return new WebMvcConfigurer() {
-			@Override
-			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**")
-						.allowedOrigins("*")
-						.allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD");
-			}
-		};
-	}
+	//This functionality is now handled by CORSFilter.java
+//	@Bean
+//	public WebMvcConfigurer corsConfigurer() {
+//		return new WebMvcConfigurer() {
+//			@Override
+//			public void addCorsMappings(CorsRegistry registry) {
+//				registry.addMapping("/**")
+//						.allowedOrigins("*")
+//						.allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD");
+//			}
+//		};
+//	}
 }
